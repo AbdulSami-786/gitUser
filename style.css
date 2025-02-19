@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    background-image: url(../bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: fit-content; */
+    min-height: 590px;
+    max-height: fit-content;
+}
+#h{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.612);
+    margin: 30px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    text-decoration:line-through 0px ;
+    /* line-height: 50px; */
+}
+.form{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputp{
+    display: flex;
+    background-color: white;
+    width: 80%;
+    border-radius: 30px;
+}
+.inputp img{
+    width: 50px;
+    border-radius: 30px;
+    /* padding: 5px 10px; */
+}
+.input{
+    width: 80%;
+    margin: 10px auto;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    /* border-radius: 30px; */
+}
+.input:active{
+     border: 1px solid rgb(255, 255, 255);
+}
+.submit{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    padding: 5px 20px;
+    background-color: rgb(0, 102, 255);
+    color: black;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.user{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+.img{
+    width: 40%;
+}
+.img img{
+    width: 100%;
+}
+.item{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    background-color: white;
+}
+.item h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+.item h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+.b1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.605);
+}
+.b2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0, 0.605);
+
+}
+.bb1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+}
+.bb2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+}
+.item h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.402);
+}
+.item h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.486);
+}
+.item h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+}
+.bp{
+    
+}
